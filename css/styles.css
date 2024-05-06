@@ -1,27 +1,86 @@
+:root{
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+    --Tomato: hsl(4, 100%, 67%);
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img {
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-up {
     width: 100%;
 }
 
 h1 {
     padding: 0.7em 0 0.5em 0.5em;
-    font-size: 45px;
+    font-size: 43px;
+    color: var(--Dark-Slate-Grey);
 }
 
-.join, p {
-    padding-left: 1.5em;
+.join{
+    margin-left: 1.3em;
+    margin-bottom: 1.6em;
     width: 90%;
+    font-size: 15px;
+    color: var( --Charcoal-Grey);
 }
 
-.list-icon {
-    float: right;
+.list {
+    margin-left: 0.8em;
+    font-size: 15px;
+    color: var( --Charcoal-Grey);
 }
 
-/* .icon {
-   float: right 
-} */
+p {
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    margin: 1em 1em 1em 1.4em;
+}
+
+.email {
+    margin-left: 1.4em;
+    margin-top: 2em;
+}
+
+.email p {
+    margin-bottom: 5px;
+    color: var(--Dark-Slate-Grey);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    padding: 1em 9em 1em 1.5em;
+    width: 95%;
+    border-radius: 7px;
+    border: 1px solid rgb(197, 197, 197);
+    color: var(--Grey);
+}
+
+.center {
+    margin-left: 1.4em;
+    margin-bottom: 1em;
+}
+
+button {
+    width: 95%;
+    padding: 1.3em 1em 1.3em.1em;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: var(--Dark-Slate-Grey);
+    font-weight: bold;
+}
