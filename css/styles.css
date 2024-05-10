@@ -84,3 +84,7 @@ button {
     background-color: var(--Dark-Slate-Grey);
     font-weight: bold;
 }
+
+.color {
+    background-color: green;
+}
